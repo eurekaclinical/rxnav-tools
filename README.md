@@ -15,3 +15,6 @@ Uses RxNav to map NDC codes to their RxNorm equivalents.
 `ndc-to-rxnorm [<input_file> [<output_file>]]`
 
 The command accepts two file arguments. The first should contain NDC codes, 1 per line. The second is tab-delimited file with two columns. The first is an NDC code, and the second is a comma-separated list of the corresponding RxNorm codes. If output_file is omitted, the command writes to stdout. If input_file and output_file are missing, the command reads from stdin and writes to stdout.
+
+##Getting help
+Feel free to contact us at help@eurekaclinical.org.
